@@ -48,7 +48,7 @@ function verificaVencedor(){
             vitoria=true;
     }
     else if(casaEl[0].innerHTML == "X" && casaEl[4].innerHTML == "X" && casaEl[8].innerHTML == "X" ||
-        casaEl[3].innerHTML == "X" && casaEl[4].innerHTML == "X" && casaEl[6].innerHTML == "X"){
+        casaEl[2].innerHTML == "X" && casaEl[4].innerHTML == "X" && casaEl[6].innerHTML == "X"){
 
             pontuacaoJog1++;
             jogadorVez.innerHTML = "Jogador 1 venceu";
@@ -77,7 +77,7 @@ function verificaVencedor(){
                 vitoria=true;
     }
     else if(casaEl[0].innerHTML == "O" && casaEl[4].innerHTML == "O" && casaEl[8].innerHTML == "O" ||
-            casaEl[3].innerHTML == "O" && casaEl[4].innerHTML == "O" && casaEl[6].innerHTML == "O"){
+            casaEl[2].innerHTML == "O" && casaEl[4].innerHTML == "O" && casaEl[6].innerHTML == "O"){
                 pontuacaoJog2++;
                 jogadorVez.innerHTML = "Jogador 2 venceu";
                 alert("Jogador 2 venceu");
