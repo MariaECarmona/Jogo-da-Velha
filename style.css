@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+td{
+    width: 10vw;
+    height: 10vw;
+    border: rgb(246,174,45) solid 2px;
+    margin: 0px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+main{
+    margin: auto;
+    width: 30vw;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(246,174,45);
+}
+
+button{
+    border-radius: 24px;
+    background-color: rgb(242,100,25);
+    border: rgb(242,100,25) 2px solid;
+    font-size: 17px;
+    padding: 0.5%;
+    margin-bottom: 20px;
+    color: rgb(47,72,88);
+}
+button:hover{
+    background-color: rgb(194, 73, 8);
+    border: rgb(194, 73, 8) solid 2px;
+}
+header{
+    background-color: rgb(246,174,45);
+    text-align: center;
+    color: rgb(47,72,88);
+    padding: 1%;
+    margin: 0px;
+    font-size: 40px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(47,72,88);
+    font-family:'Poiret One', cursive;
+}
+
+p{
+    color: rgb(246,174,45);
+    font-size: 30px;
+}
+
+footer{
+    background-color: rgb(242,100,25);
+    padding: 0.5%;
+    text-align: center;
+}
+
+footer p{
+    color: rgb(47,72,88);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(47,72,88);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#bloco-score p{
+    color: rgb(246,174,45);
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(47,72,88);
+    width: 120px;
+    border-radius: 24px;
+}
+
+#bloco-score{
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+
+/*azul escuro:rgb(47,72,88)
+azul:rgb(51,101,138)
+azul claro: rgb(134,187,216)
+laranja:rgb(242,100,25)
+amarelo:rgb(246,174,45)
